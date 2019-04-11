@@ -1,0 +1,56 @@
+ body {
+	background-color: #63431c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: impact;
+	margin: 0;
+	font-size: 35px;
+	text-shadow: 0px -1px 0px rgba(255,225,31,0.4);
+}
+#doom-fire{
+	font-family: arial;
+	margin:0;
+	font-size: 8px;
+}
+
+#doom-fire table, td{
+	padding: 0;
+	text-align: center;
+    vertical-align: center;	
+}
+
+#doom-fire table td.pixel{
+	width: 4px;
+	height: 4px;
+	border: 0;	
+}
+
+#doom-fire table.debug td span.position-left{
+	font-size: 4px;
+	color: #c2c2c2;
+	top: 3px;
+	left: 1px;	
+	position: absolute;
+}
+
+#doom-fire table.debug td span.position-right{
+	font-size: 4px;
+	color: #c2c2c2;
+	top: 3px;
+	right: 1px;	
+	position: absolute;
+}
+
+#doom-fire table.debug td{
+
+	position: relative;
+	border: 1px solid #fff;
+	color: #000;
+	height: 32px;
+	width: 32px;
+	vertical-align: bottom;	
+}
